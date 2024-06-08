@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("../img/background.png");
+}
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: end;
+  margin: 0;
+  z-index: 20;
+}
+
+.hdtx {
+  padding: 1rem;
+  margin: 0;
+}
+#Emet-img {
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.titulo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 8;
+}
+.background{
+  position:fixed;
+  width: 100rem;
+  height: 50rem;
+  background-color: antiquewhite;
+  opacity: 0.8;
+  z-index: 1;
+  margin: 1rem 10rem;
+}
+.graha-main img{
+  width: 400px;
+}
+.graha-main {
+  display: flex;
+  justify-content: center;
+}
+.graha-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  z-index: 9;
+}
+
+
+#buttonVerificar{
+  background-color: aqua;
+  font-size: 1rem;
+  align-content: center;
+  z-index: 3;
+}
+
+.passFlex{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  z-index: 30;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
