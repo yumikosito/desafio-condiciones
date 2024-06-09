@@ -1,14 +1,11 @@
 const emet=document.getElementById("Emet-img")
-let flag=false
 
 function borde(){
-    if (flag===false){
-      emet.style.border="5px solid yellow"
-      flag=true
-    } else {
-      emet.style.border =""
-      flag=false
-    }
+  if (emet.style.border===""){
+    emet.style.border="2px solid red"
+  } else {
+    emet.style.border =""
+  }
 }
 
 function verificar(){
